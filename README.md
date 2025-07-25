@@ -1,6 +1,9 @@
 # Language-Detection-using-ML
 A machine learning project for detecting text language using TF-IDF vectorization and classifiers like Naive Bayes, Logistic Regression, SVM, and Random Forest. Features include robust model evaluation with cross-validation, hyperparameter tuning via GridSearchCV, and a deployment-ready pipeline.
 
+<img width="700" height="836" alt="image" src="https://github.com/user-attachments/assets/de89dadb-f180-457d-9bd6-8ac9c9338972" />
+
+
 ## Features
 1. **Text Preprocessing**: Uses TF-IDF vectorization with word-based n-grams (1,3) for feature extraction, configured with max_features=10000, min_df=2, and max_df=0.95.
 2. **Model Comparison**: Evaluates four classifiers (Naive Bayes, Logistic Regression, SVM, Random Forest) using 5-fold cross-validation.
